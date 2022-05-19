@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/gennadiyqa/IdeaProjects/Kassa24/src/test/java/test/oplataTicker/oplataTickets.java(failed)">
+    <classes>
+      <class name="test.oplataTicker.oplataTickets">
+        <methods>
+          <include name="checkChoosePriceClickPoint"/>
+          <include name="checkResultPayPark"/>
+          <include name="checkResultCollectionPayUniteller"/>
+          <include name="checResultCollectionPay"/>
+          <include name="checkChoosePlaceBtnPay"/>
+          <include name="checkChoosePriceDelitePoint"/>
+          <include name="checkResultPayPushka"/>
+          <include name="checkCostClickPlace"/>
+          <include name="checkCostDelitePlace"/>
+          <include name="checkChooseTicketPlaceMinus"/>
+          <include name="checkChooseTicketPlacePlus"/>
+          <include name="checkUkrainMask"/>
+        </methods>
+      </class> <!-- test.oplataTicker.oplataTickets -->
+    </classes>
+  </test> <!-- /Users/gennadiyqa/IdeaProjects/Kassa24/src/test/java/test/oplataTicker/oplataTickets.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

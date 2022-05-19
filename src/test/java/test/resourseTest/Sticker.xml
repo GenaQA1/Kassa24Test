@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/gennadijcebotar/IdeaProjects/Kassa24/src/test/java/test/sticker/sticker.java">
+        <classes>
+            <class name="test.sticker.sticker">
+                <methods>
+                    <include name="checkResultSticker_fee"/>
+                    <include name="checkResultSticker_pushkina"/>
+                    <include name="checkResultSticker_tourist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

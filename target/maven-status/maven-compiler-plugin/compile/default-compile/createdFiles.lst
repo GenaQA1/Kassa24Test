@@ -1,0 +1,12 @@
+Page/Base/BasePage.class
+Page/ChangeCity/ChangeCity.class
+Page/firstKassa24/Firstpage.class
+Page/Sticker/Sticker.class
+Page/WidgetAppWlogo/WidgetAppwlogo.class
+Page/WidgetVkKassa24/WidgetVkKassa24.class
+Page/OplataTickets/OplataTickets.class
+Common/Config.class
+Page/RegistrForm/RegistForm.class
+Page/Category/Category.class
+Page/LoginPasset/LoginPasset.class
+Common/CommonAction.class
