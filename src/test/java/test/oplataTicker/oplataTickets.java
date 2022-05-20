@@ -9,10 +9,6 @@ import org.testng.annotations.Test;
 import test.base.BaseTest;
 
 public class oplataTickets extends BaseTest {
-    public static void configure() {
-        Logger root = Logger.getRootLogger();
-        root.addAppender(new ConsoleAppender(new PatternLayout("%r [%t] %p %c %x - %m%n")));
-    }
 
 //    @Test
 //
