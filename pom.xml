@@ -34,7 +34,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
-                    <reportsDirectory>/Users/gennadiyqa/ResultTestMaven/OplataTickets</reportsDirectory>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
