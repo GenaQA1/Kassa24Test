@@ -1,10 +1,7 @@
 package test.oplataTicker;
 
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.ConsoleAppender;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
+
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
