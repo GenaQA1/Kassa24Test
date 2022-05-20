@@ -30,7 +30,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkCostClickPlace() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj");
+        basePage.open("https://simferopol.kassa24.ru/event/most-nad-rekoj-simf");
 
         oplataTickets
                 //.clickMoment()
