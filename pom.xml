@@ -37,7 +37,20 @@
                 </configuration>
             </plugin>
             <plugin>
-
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>test.oplataTicker.oplataTickets</mainClass>
+                    <arguments>
+                    </arguments>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
@@ -46,7 +59,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
@@ -64,6 +77,11 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.6.0</version>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
