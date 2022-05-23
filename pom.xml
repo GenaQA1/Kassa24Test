@@ -22,7 +22,7 @@
     <build>
         <testResources>
             <testResource>
-                <directory>src/test/java/test/resourseTest/</directory>
+                <directory>src/main/resources</directory>
                 <filtering>true</filtering>
             </testResource>
         </testResources>
@@ -40,7 +40,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
-
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
