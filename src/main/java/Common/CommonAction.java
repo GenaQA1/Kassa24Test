@@ -29,7 +29,7 @@ public class CommonAction {
         if(driver == null){
             switch (PLATFORM_AND_BROWSER){
                 case "win_chrome":
-                    System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriverLinux");
+                    System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
                     driver = new ChromeDriver();   //driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), chromeOptions);
                     break;
                 default:
