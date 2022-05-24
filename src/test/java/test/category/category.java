@@ -8,6 +8,8 @@ import java.net.MalformedURLException;
 public class category extends BaseTest {
 
 
+    public category() throws MalformedURLException {
+    }
 
     //Проверка Категории "Театр"
     @Test
