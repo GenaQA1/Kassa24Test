@@ -24,7 +24,7 @@ static ChromeOptions chromeOptions = new ChromeOptions();
     private CommonAction(){
     }
 
-
+    @BeforeTest
     public static WebDriver createDriver() throws MalformedURLException {
         if(driver == null){
             switch (PLATFORM_AND_BROWSER){
