@@ -46,7 +46,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
