@@ -1,156 +1,147 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 39.796 s <<< FAILURE! - in TestSuite
-test.oplataTicker.oplataTickets.checkCostClickPlace  Time elapsed: 14.205 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a"}
-  (Session info: chrome=101.0.4951.64)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, findElement {using=xpath, value=/html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkCostClickPlace(oplataTickets.java:37)
-
-test.oplataTicker.oplataTickets.checkCostDelitePlace  Time elapsed: 12.719 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a"}
-  (Session info: chrome=101.0.4951.64)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, findElement {using=xpath, value=/html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkCostDelitePlace(oplataTickets.java:48)
-
-test.oplataTicker.oplataTickets.checkResultPayPark  Time elapsed: 5.165 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to find element with locator By.xpath: /html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at test.oplataTicker.oplataTickets.checkResultPayPark(oplataTickets.java:60)
-
-test.oplataTicker.oplataTickets.checkResultPayPushka  Time elapsed: 0.01 s  <<< FAILURE!
+Tests run: 11, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 10.487 s <<< FAILURE! - in TestSuite
+test.category.category.checkCountTheatre  Time elapsed: 5.495 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkResultPayPushka(oplataTickets.java:77)
+Command: [e93237161afc6fce9d65ab91919698fa, findElement {using=xpath, value=/html/body/header/section[2]/div[1]/ul/li[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkCountTheatre(category.java:20)
 
-test.oplataTicker.oplataTickets.checResultCollectionPay  Time elapsed: 0.008 s  <<< FAILURE!
+test.category.category.checkCountAll  Time elapsed: 0.004 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checResultCollectionPay(oplataTickets.java:97)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkCountAll(category.java:27)
 
-test.oplataTicker.oplataTickets.checkResultCollectionPayUniteller  Time elapsed: 0.009 s  <<< FAILURE!
+test.category.category.checkCountClub  Time elapsed: 0.009 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=https://simferopol.kassa24.ru/event/fiksiki-igraut-v-cirk-test}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkResultCollectionPayUniteller(oplataTickets.java:118)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkCountClub(category.java:37)
 
-test.oplataTicker.oplataTickets.checkChooseTicketPlacePlus  Time elapsed: 0.008 s  <<< FAILURE!
+test.category.category.checkCountConcert  Time elapsed: 0.008 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkChooseTicketPlacePlus(oplataTickets.java:254)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkCountConcert(category.java:47)
 
-test.oplataTicker.oplataTickets.checkChooseTicketPlaceMinus  Time elapsed: 0.009 s  <<< FAILURE!
+test.category.category.checkCountShow  Time elapsed: 0.01 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkChooseTicketPlaceMinus(oplataTickets.java:264)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkCountShow(category.java:57)
 
-test.oplataTicker.oplataTickets.checkUkrainMask  Time elapsed: 0.009 s  <<< FAILURE!
+test.category.category.checkNew_Year  Time elapsed: 0.008 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkUkrainMask(oplataTickets.java:295)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkNew_Year(category.java:67)
 
-test.oplataTicker.oplataTickets.checkChoosePlaceBtnPay  Time elapsed: 0.005 s  <<< FAILURE!
+test.category.category.checkPeregrinandum  Time elapsed: 0.01 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkChoosePlaceBtnPay(oplataTickets.java:312)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.checkPeregrinandum(category.java:76)
 
-test.oplataTicker.oplataTickets.checkChoosePriceClickPoint  Time elapsed: 0.01 s  <<< FAILURE!
+test.category.category.CheckId8  Time elapsed: 0.011 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkChoosePriceClickPoint(oplataTickets.java:334)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.CheckId8(category.java:85)
 
-test.oplataTicker.oplataTickets.checkChoosePriceDelitePoint  Time elapsed: 0.007 s  <<< FAILURE!
+test.category.category.CheckId9  Time elapsed: 0.008 s  <<< FAILURE!
 org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=101.0.4951.64)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'Mac-mini-Gennadij.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '18.0.1'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e3075d47e47fb112c672fc59c5b5256, get {url=http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/py/9dvkhy_14tb...}, goog:chromeOptions: {debuggerAddress: localhost:56160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56160/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e3075d47e47fb112c672fc59c5b5256
-	at test.oplataTicker.oplataTickets.checkChoosePriceDelitePoint(oplataTickets.java:346)
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.CheckId9(category.java:94)
+
+test.category.category.CheckId10  Time elapsed: 0.006 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.CheckId10(category.java:103)
+
+test.category.category.CheckId11  Time elapsed: 0.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'admins-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:2c1a:6d29:2c28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e93237161afc6fce9d65ab91919698fa, get {url=https://kassa24.ru/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/pp/wznj096s7g5...}, goog:chromeOptions: {debuggerAddress: localhost:53019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53019/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e93237161afc6fce9d65ab91919698fa
+	at test.category.category.CheckId11(category.java:111)
 
