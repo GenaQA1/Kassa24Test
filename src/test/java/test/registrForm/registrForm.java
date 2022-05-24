@@ -1,10 +1,14 @@
-//package test.registrForm;
+package test.registrForm;//package test.registrForm;
 
 
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class registrForm extends BaseTest {
+    public registrForm() throws MalformedURLException {
+    }
 
 //    //Проверка успешной регистрации
 //    @Test

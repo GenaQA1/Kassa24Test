@@ -15,6 +15,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
+import java.net.MalformedURLException;
+
 public class BaseTest {
 
 
@@ -47,6 +49,9 @@ public class BaseTest {
     private final By changeEvent = By.xpath("//*[@id='w0-container']/table/tbody/tr/td[14]/a[3]");
     private final By fieldServiseFee = By.xpath("//*[@id='event-fee']");
     private final By btnAcceptEvent = By.xpath("//*[@id='w0']/div[60]/button");
+
+    public BaseTest() throws MalformedURLException {
+    }
 
 
     public BaseTest sendKeyLoginAdmin() {

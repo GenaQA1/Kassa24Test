@@ -3,9 +3,14 @@ package test.category;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class category extends BaseTest {
 
-//Проверка Категории "Театр"
+    public category() throws MalformedURLException {
+    }
+
+    //Проверка Категории "Театр"
     @Test
     public void checkCountTheatre(){
     basePage.open("https://kassa24.ru/");

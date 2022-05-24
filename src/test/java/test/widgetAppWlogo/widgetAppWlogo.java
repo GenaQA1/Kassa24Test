@@ -3,8 +3,13 @@ package test.widgetAppWlogo;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class widgetAppWlogo extends BaseTest {
 
+
+    public widgetAppWlogo() throws MalformedURLException {
+    }
 
     //Правильное вычисления сервсиного сбора и общей суммы заказа (20 билетов) (5%)
     @Test

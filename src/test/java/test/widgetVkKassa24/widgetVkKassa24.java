@@ -3,7 +3,12 @@ package test.widgetVkKassa24;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class widgetVkKassa24 extends BaseTest {
+
+    public widgetVkKassa24() throws MalformedURLException {
+    }
 
     //Правильное вычисления сервсиного сбора и общей суммы заказа (20 билетов) (5%)
     @Test

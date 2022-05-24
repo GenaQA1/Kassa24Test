@@ -3,8 +3,13 @@ package test.sticker;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class sticker extends BaseTest {
 
+
+    public sticker() throws MalformedURLException {
+    }
 
     @Test
     public void checkResultSticker_fee(){

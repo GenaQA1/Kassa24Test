@@ -5,7 +5,11 @@ package test.oplataTicker;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class oplataTickets extends BaseTest {
+    public oplataTickets() throws MalformedURLException {
+    }
 
 //    @Test
 //

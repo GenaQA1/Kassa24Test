@@ -3,7 +3,12 @@ package test.city;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class city extends BaseTest {
+
+    public city() throws MalformedURLException {
+    }
 
     @Test
     public void checkResultEvpatory(){

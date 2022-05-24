@@ -4,7 +4,12 @@ package test.loginForm;
 import org.testng.annotations.Test;
 import test.base.BaseTest;
 
+import java.net.MalformedURLException;
+
 public class loginForm extends BaseTest {
+
+    public loginForm() throws MalformedURLException {
+    }
 
     @Test
     //Тест кейс - 1
