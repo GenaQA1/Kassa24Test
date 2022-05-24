@@ -1,10 +1,9 @@
 test/widgetAppWlogo/widgetAppWlogo.class
 test/loginForm/loginForm.class
-test/sticker/sticker.class
-test/oplataTicker/oplataTickets.class
-test/city/city.class
 test/base/CustomListeners.class
 test/category/category.class
+test/sticker/sticker.class
 test/base/BaseTest.class
-registrForm.class
+test/oplataTicker/oplataTickets.class
+test/city/city.class
 test/widgetVkKassa24/widgetVkKassa24.class

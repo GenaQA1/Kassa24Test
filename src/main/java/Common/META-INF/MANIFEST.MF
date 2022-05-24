@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: auto-service-annotations-1.0.1.jar guava-31.1-jre.jar opente
+ lemetry-sdk-common-1.13.0.jar netty-codec-socks-4.1.60.Final.jar netty-
+ reactive-streams-2.0.4.jar netty-codec-http-4.1.76.Final.jar netty-code
+ c-4.1.76.Final.jar opentelemetry-api-1.13.0.jar reactive-streams-1.0.3.
+ jar jakarta.activation-1.2.2.jar selenium-ie-driver-4.1.4.jar jcommande
+ r-1.82.jar netty-transport-classes-kqueue-4.1.76.Final.jar selenium-ope
+ ra-driver-4.1.4.jar selenium-devtools-v99-4.1.4.jar reload4j-1.2.19.jar
+  selenium-devtools-v85-4.1.4.jar selenium-api-4.1.4.jar opentelemetry-e
+ xporter-logging-1.13.0.jar opentelemetry-sdk-extension-autoconfigure-sp
+ i-1.13.0.jar netty-transport-classes-epoll-4.1.76.Final.jar auto-servic
+ e-1.0.1.jar slf4j-reload4j-1.7.36.jar selenium-chromium-driver-4.1.4.ja
+ r netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar opentelemet
+ ry-sdk-extension-autoconfigure-1.13.0-alpha.jar netty-transport-native-
+ epoll-4.1.60.Final-linux-x86_64.jar opentelemetry-sdk-logs-1.13.0-alpha
+ .jar selenium-devtools-v101-4.1.4.jar jsr305-3.0.1.jar checker-qual-3.1
+ 2.0.jar selenium-remote-driver-4.1.4.jar jtoml-2.0.0.jar slf4j-api-1.7.
+ 36.jar opentelemetry-sdk-metrics-1.13.0-alpha.jar opentelemetry-sdk-tra
+ ce-1.13.0.jar selenium-json-4.1.4.jar byte-buddy-1.12.9.jar failsafe-3.
+ 2.3.jar listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar 
+ netty-common-4.1.76.Final.jar commons-exec-1.3.jar netty-buffer-4.1.76.
+ Final.jar opentelemetry-semconv-1.13.0-alpha.jar selenium-chrome-driver
+ -4.1.4.jar auto-common-1.2.jar netty-transport-native-kqueue-4.1.76.Fin
+ al.jar selenium-firefox-driver-4.1.4.jar selenium-http-4.1.4.jar netty-
+ transport-native-epoll-4.1.76.Final.jar async-http-client-netty-utils-2
+ .12.3.jar selenium-edge-driver-4.1.4.jar netty-transport-4.1.76.Final.j
+ ar testng-7.5.jar commons-io-2.11.0.jar j2objc-annotations-1.3.jar sele
+ nium-support-4.1.4.jar async-http-client-2.12.3.jar opentelemetry-sdk-1
+ .13.0.jar opentelemetry-context-1.13.0.jar error_prone_annotations-2.11
+ .0.jar selenium-safari-driver-4.1.4.jar selenium-java-4.1.4.jar netty-r
+ esolver-4.1.76.Final.jar netty-handler-4.1.76.Final.jar netty-handler-p
+ roxy-4.1.60.Final.jar failureaccess-1.0.1.jar netty-transport-native-un
+ ix-common-4.1.76.Final.jar selenium-devtools-v100-4.1.4.jar jquery-3.5.
+ 1.jar
+

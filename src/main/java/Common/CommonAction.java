@@ -20,7 +20,7 @@ import static Common.Config.PLATFORM_AND_BROWSER;
 public class CommonAction {
 
     private  static WebDriver driver = null;
-static ChromeOptions chromeOptions = new ChromeOptions();
+//static ChromeOptions chromeOptions = new ChromeOptions();
     private CommonAction(){
     }
 
@@ -30,7 +30,7 @@ static ChromeOptions chromeOptions = new ChromeOptions();
             switch (PLATFORM_AND_BROWSER){
                 case "win_chrome":
                     System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriverLinux");
-                    driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), chromeOptions);
+                    driver = new ChromeDriver();   //driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), chromeOptions);
                     break;
                 default:
                     Assert.fail("Incorrect platform or browser name:" + PLATFORM_AND_BROWSER);
