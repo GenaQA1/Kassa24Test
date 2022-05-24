@@ -1,16 +1,10 @@
 package Common;
 
-import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 
-import javax.print.DocFlavor;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import static Common.Config.IMPLICIT_WAIT;
@@ -25,7 +19,7 @@ public class CommonAction {
     }
 
     @BeforeTest
-    public static WebDriver createDriver() throws MalformedURLException {
+    public static WebDriver createDriver(){
         if(driver == null){
             switch (PLATFORM_AND_BROWSER){
                 case "win_chrome":

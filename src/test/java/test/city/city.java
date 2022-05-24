@@ -7,8 +7,6 @@ import java.net.MalformedURLException;
 
 public class city extends BaseTest {
 
-    public city() throws MalformedURLException {
-    }
 
     @Test
     public void checkResultEvpatory(){
