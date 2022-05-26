@@ -28,7 +28,7 @@ static ChromeOptions chromeOptions = new ChromeOptions();
             switch (PLATFORM_AND_BROWSER){
                 case "win_chrome":
                     System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
-                    driver = new RemoteWebDriver(new URL("http://192.168.0.104:4444//wd/hub"), chromeOptions);   //driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), chromeOptions);
+                    driver = new RemoteWebDriver(new URL("http://localhost:4444//wd/hub"), chromeOptions);   //driver = new RemoteWebDriver(new URL("http://localhost:4445/wd/hub"), chromeOptions);
                     break;
                 default:
                     Assert.fail("Incorrect platform or browser name:" + PLATFORM_AND_BROWSER);
