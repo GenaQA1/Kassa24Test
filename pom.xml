@@ -45,7 +45,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectj-${aspectj.version}.jar"
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjrt-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
