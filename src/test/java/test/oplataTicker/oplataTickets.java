@@ -34,7 +34,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkCostClickPlace() throws InterruptedException {
-        basePage.open("https://simferopol.kassa24.ru/event/most-nad-rekoj-simf");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
@@ -45,7 +45,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkCostDelitePlace() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
@@ -57,7 +57,7 @@ public class oplataTickets extends BaseTest {
     //Проверка присутствует ли блок "Доставка" при выборе способа оплаты "Оплата наличными в кассе"
     @Test
     public void checkResultPayPark() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
@@ -78,12 +78,12 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkResultPayPushka() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
                 .clickbtnPay()
-                .choosePlace()
+                .choosePlaceOne()
                 .clickBtnPayPlace()
                 .fieldPhoneSigUp()
                 .clickBtnAccept()
@@ -92,13 +92,15 @@ public class oplataTickets extends BaseTest {
                 .fieldName()
                 .fieldMail()
                 .clickPushkaPay()
-                .chechResultPayPushks();
+                .chechResultPayPushks()
+                .clickBtnAcceptPay()
+                .checkResultColletctionPay();
 
     }
 
     @Test
     public void checResultCollectionPay() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-dla-oplaty-puskinskoj-kartoj");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
@@ -119,7 +121,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkResultCollectionPayUniteller() throws InterruptedException {
-        basePage.open("https://simferopol.kassa24.ru/event/fiksiki-igraut-v-cirk-test");
+        basePage.open("https://simferopol.kassa24.ru/event/testovoe-fiksiki-igraut-v-cirk-testovoe");
 
         oplataTickets
                 //.clickMoment()
@@ -255,20 +257,20 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkChooseTicketPlacePlus() throws InterruptedException {
-        basePage.open("http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe");
 
         oplataTickets
-                .clickBtnPlaceEvent()
+                .clickbtnPay()
                 .chooseTicketClickFivePlus()
                 .checkResultChoosePlacePlus();
     }
 
     @Test
     public void checkChooseTicketPlaceMinus() throws InterruptedException {
-        basePage.open("http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe");
 
         oplataTickets
-                .clickBtnPlaceEvent()
+                .clickbtnPay()
                 .chooseTicketClickFivePlus()
                 .chooseTicketClickFiveMinus()
                 .checkResultChoosePlaceMinus();
@@ -278,7 +280,7 @@ public class oplataTickets extends BaseTest {
 //    @Test
 //    public void checkTransitClickBtnPay() throws InterruptedException {
 //
-//        basePage.open("http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra");
+//        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe");
 //
 //        oplataTickets
 //                .clickBtnPlaceEvent()
@@ -296,10 +298,10 @@ public class oplataTickets extends BaseTest {
     @Test
     public void checkUkrainMask() throws InterruptedException {
 
-        basePage.open("http://yalta.ticket.bestit.com.ua/event/ekskursia-vinzavod-massandra");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe");
 
         oplataTickets
-                .clickBtnPlaceEvent()
+                .clickbtnPay()
                 .chooseTicketClickFivePlus()
                 .checkResultChoosePlacePlus()
                 .clickBtnAcceptPay()
@@ -313,7 +315,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkChoosePlaceBtnPay() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe-kopia");
 
         oplataTickets
                 .clickbtnPay()
@@ -323,7 +325,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkСhoosePlace() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe-kopia");
 
         oplataTickets
                 .clickbtnPay()
@@ -335,7 +337,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkChoosePriceClickPoint() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe-kopia");
 
         oplataTickets
                 .clickbtnPay()
@@ -347,7 +349,7 @@ public class oplataTickets extends BaseTest {
 
     @Test
     public void checkChoosePriceDelitePoint() throws InterruptedException {
-        basePage.open("http://simferopol.ticket.bestit.com.ua/event/sobytie-s-mestami-i-knopkoj");
+        basePage.open("https://yalta.kassa24.ru/event/spektakl-cestnaa-zensina-testovoe-kopia");
 
         oplataTickets
                 .clickbtnPay()

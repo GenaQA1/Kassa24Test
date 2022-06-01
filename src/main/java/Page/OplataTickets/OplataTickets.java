@@ -89,7 +89,10 @@ public class OplataTickets extends BasePage {
         driver.findElement(btnPay).click();
         return this;
     }
-
+    public OplataTickets choosePlaceOne(){
+        driver.findElement(placeAll).click();
+        return this;
+    }
     public OplataTickets choosePlace(){
         List<WebElement> elementList = driver.findElements(placeAll);
         for (WebElement element : elementList){

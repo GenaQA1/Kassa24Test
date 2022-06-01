@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" thread-count="12">
+<suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="src/test/java/test/category/category.java">
+          name="src/test/java/test/oplataTicker/oplataTickets.java">
         <classes>
-            <class name="test.category.category">
+            <class name="test.oplataTicker.oplataTickets">
                 <methods>
-                    <include name="checkCountTheatre"/>
-                    <include name="checkCountAll"/>
-                    <include name="checkCountClub"/>
-                    <include name="checkCountConcert"/>
-                    <include name="checkCountShow"/>
-                    <include name="checkNew_Year"/>
-                    <include name="checkPeregrinandum"/>
-                    <include name="CheckId8"/>
-                    <include name="CheckId9"/>
-                    <include name="CheckId10"/>
-                    <include name="CheckId11"/>
+                    <include name="checkCostClickPlace"/>
+                    <include name="checkCostDelitePlace"/>
+                    <include name="checkResultPayPark"/>
+                    <include name="checkResultPayPushka"/>
+                    <include name="checResultCollectionPay"/>
+                    <include name="checkResultCollectionPayUniteller"/>
+                    <include name="checkChooseTicketPlacePlus"/>
+                    <include name="checkChooseTicketPlaceMinus"/>
+                    <include name="checkUkrainMask"/>
+                    <include name="checkChoosePlaceBtnPay"/>
+                    <include name="checkChoosePriceClickPoint"/>
+                    <include name="checkChoosePriceDelitePoint"/>
                 </methods>
             </class>
         </classes>
