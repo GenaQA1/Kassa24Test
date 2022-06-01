@@ -436,7 +436,7 @@ public class OplataTickets extends BasePage {
     }
 
     public OplataTickets checkResultCollectionPushka(){
-        Assert.assertEquals( driver.findElement(fieldCollectionPay).getText(),"Коллективная покупка билетов на \"Событие для оплаты Пушкинской картой\"","Имя не сходится");
+        Assert.assertEquals( driver.findElement(fieldCollectionPay).getText(),"Коллективная покупка билетов на \"(ТЕСТОВОЕ) Фиксики играют в цирк!\"","Имя не сходится");
         return this;
     }
 
