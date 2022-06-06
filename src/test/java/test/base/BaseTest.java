@@ -6,6 +6,7 @@ import Page.Category.Category;
 import Page.ChangeCity.ChangeCity;
 import Page.LoginPasset.LoginPasset;
 import Page.OplataTickets.OplataTickets;
+import Page.PopUp.PopUp;
 import Page.RegistrForm.RegistForm;
 import Page.Sticker.Sticker;
 import Page.WidgetAppWlogo.WidgetAppwlogo;
@@ -32,6 +33,7 @@ public class BaseTest {
     protected OplataTickets oplataTickets = new OplataTickets(driver);
     protected WidgetVkKassa24 widgetVkKassa24 = new WidgetVkKassa24(driver);
     protected WidgetAppwlogo widgetAppwlogo = new WidgetAppwlogo(driver);
+    protected PopUp popUp = new PopUp(driver);
 
 
     //Постоянные действия

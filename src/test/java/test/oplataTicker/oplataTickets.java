@@ -41,6 +41,7 @@ public class oplataTickets extends BaseTest {
                 .clickbtnPay()
                 .choosePlace()
                 .clickPlace();
+
     }
 
     @Test

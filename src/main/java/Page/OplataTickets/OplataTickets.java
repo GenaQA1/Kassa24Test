@@ -22,6 +22,7 @@ public class OplataTickets extends BasePage {
     public final By moment = By.xpath("/html/body/main/section[1]/ul/li[3]/a/div[2]/div[1]/h3");
     public final By btnPay = By.xpath("/html/body/main/article/section/section[1]/div/div[2]/div[2]/section/div/a");
     public final By placeAll = By.xpath("//*[@data-blocked = 'false'][position() <6]");
+    public final By placeEleven = By.xpath("//*[@data-blocked = 'false'][position() <15]");
     public final By btnPayPlace = By.xpath("//*[@id='confirmation']");
     public final By btnAccept = By.xpath("//*[@id='order-confirmation-button']");
     public final By btnAcceptCode = By.xpath("//*[@id='order-submit-button']");
@@ -100,6 +101,14 @@ public class OplataTickets extends BasePage {
         }
         return this;
     }
+    public OplataTickets choosePlaceEleven(){
+        List<WebElement> elementList = driver.findElements(placeEleven);
+        for (WebElement element : elementList){
+            element.click();
+        }
+        return this;
+    }
+
 
 
     public OplataTickets clickBtnPayPlace() throws InterruptedException {
@@ -119,10 +128,44 @@ public class OplataTickets extends BasePage {
         return this;
     }
 
+
+    public OplataTickets fieldPhoneSigUpFiveSimvle() {
+        try {
+            driver.findElement(phoneSigUp).click();
+            driver.findElement(phoneSigUp).clear();
+            driver.findElement(phoneSigUp).sendKeys("99999");
+        } catch (Exception e) {
+            System.out.println("Элемент отстствует");
+        }
+        return this;
+    }
+
+    public OplataTickets fieldPhoneSigUpError() {
+        try {
+            driver.findElement(phoneSigUp).click();
+            driver.findElement(phoneSigUp).clear();
+            driver.findElement(phoneSigUp).sendKeys("1231231231");
+        } catch (Exception e) {
+            System.out.println("Элемент отстствует");
+        }
+        return this;
+    }
+
+
     public OplataTickets fieldPhonePass() {
         try {
             driver.findElement(passPhone).click();
             driver.findElement(passPhone).sendKeys("1425");
+        } catch (Exception e) {
+            System.out.println("Элемент отстствует");
+        }
+        return this;
+    }
+
+    public OplataTickets fieldPhonePassError() {
+        try {
+            driver.findElement(passPhone).click();
+            driver.findElement(passPhone).sendKeys("14");
         } catch (Exception e) {
             System.out.println("Элемент отстствует");
         }
